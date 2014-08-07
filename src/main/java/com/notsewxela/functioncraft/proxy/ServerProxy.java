@@ -1,6 +1,6 @@
 package com.notsewxela.functioncraft.proxy;
 
-public class ServerProxy
+public class ServerProxy extends CommonProxy
 {
 
 }

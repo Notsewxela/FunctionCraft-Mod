@@ -1,15 +1,21 @@
 package com.notsewxela.functioncraft;
 
+import com.notsewxela.functioncraft.proxy.IProxy;
+import com.notsewxela.functioncraft.reference.Reference;
 import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid="FunctionCraft", name="Function Craft", version="1.7.2-1.0")
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
 public class FunctionCraft
 {
-    @Mod.Instance("FunctionCraft")
+    @Mod.Instance(Reference.MOD_ID)
     public static FunctionCraft instance;
+
+    @SidedProxy(clientSide = "com.notsewxela.functioncraft.proxy.ClientProxy", serverSide = "com.notsewxela.functioncraft.proxy.ServerProxy")
+    public static IProxy proxy;
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)

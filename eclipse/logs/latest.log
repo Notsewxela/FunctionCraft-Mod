@@ -1,9 +1,35 @@
-[19:06:04] [main/INFO]: Setting user: ForgeDevName
-[19:06:05] [Client thread/INFO]: LWJGL Version: 2.9.0
-[19:06:12] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Function Craft
-[19:06:13] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[19:06:14] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[19:06:14] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Function Craft
-[19:06:14] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[19:06:14] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[19:06:15] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
+[19:13:06] [main/INFO]: Setting user: ForgeDevName
+[19:13:08] [Client thread/INFO]: LWJGL Version: 2.9.1
+[19:13:15] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Function Craft
+[19:13:16] [Sound Library Loader/INFO]: Sound engine started
+[19:13:20] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[19:13:20] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[19:13:20] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Function Craft
+[19:13:20] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[19:13:20] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[19:13:21] [Sound Library Loader/INFO]: Sound engine started
+[19:13:31] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[19:13:31] [Server thread/INFO]: Generating keypair
+[19:13:32] [Server thread/INFO]: Preparing start region for level 0
+[19:13:33] [Server thread/INFO]: Preparing spawn area: 59%
+[19:13:34] [Server thread/INFO]: Preparing spawn area: 96%
+[19:13:35] [Server thread/INFO]: Changing view distance to 12, from 10
+[19:13:35] [Server thread/INFO]: ForgeDevName[local:E:e112ec6e] logged in with entity id 375 at (236.8265769089032, 71.0, 242.69999998807907)
+[19:13:35] [Server thread/INFO]: ForgeDevName joined the game
+[19:13:37] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2247ms behind, skipping 44 tick(s)
+[19:13:41] [Client thread/INFO]: Warning: Clientside chunk ticking took 103 ms
+[19:13:46] [Server thread/INFO]: Saving and pausing game...
+[19:13:46] [Server thread/INFO]: Saving chunks for level 'Da Test'/Overworld
+[19:13:47] [Server thread/INFO]: Saving chunks for level 'Da Test'/Nether
+[19:13:47] [Server thread/INFO]: Saving chunks for level 'Da Test'/The End
+[19:13:50] [Server thread/INFO]: Saving and pausing game...
+[19:13:50] [Server thread/INFO]: Saving chunks for level 'Da Test'/Overworld
+[19:13:50] [Server thread/INFO]: Saving chunks for level 'Da Test'/Nether
+[19:13:50] [Server thread/INFO]: Saving chunks for level 'Da Test'/The End
+[19:13:51] [Server thread/INFO]: Stopping server
+[19:13:51] [Server thread/INFO]: Saving players
+[19:13:51] [Server thread/INFO]: Saving worlds
+[19:13:51] [Server thread/INFO]: Saving chunks for level 'Da Test'/Overworld
+[19:13:51] [Server thread/INFO]: Saving chunks for level 'Da Test'/Nether
+[19:13:51] [Server thread/INFO]: Saving chunks for level 'Da Test'/The End
+[19:13:53] [Client thread/INFO]: Stopping!

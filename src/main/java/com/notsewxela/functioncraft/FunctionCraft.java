@@ -1,6 +1,7 @@
 package com.notsewxela.functioncraft;
 
 import com.notsewxela.functioncraft.handler.ConfigurationHandler;
+import com.notsewxela.functioncraft.init.ModItems;
 import com.notsewxela.functioncraft.proxy.IProxy;
 import com.notsewxela.functioncraft.reference.Reference;
 import com.notsewxela.functioncraft.utility.LogHelper;
@@ -26,6 +27,8 @@ public class FunctionCraft
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         LogHelper.info("Pre Initialisation Complete!");
+
+        ModItems.init();
     }
 
     @Mod.EventHandler

@@ -1,6 +1,7 @@
 package com.notsewxela.functioncraft;
 
 import com.notsewxela.functioncraft.handler.ConfigurationHandler;
+import com.notsewxela.functioncraft.init.ModBlocks;
 import com.notsewxela.functioncraft.init.ModItems;
 import com.notsewxela.functioncraft.proxy.IProxy;
 import com.notsewxela.functioncraft.reference.Reference;
@@ -29,6 +30,8 @@ public class FunctionCraft
         LogHelper.info("Pre Initialisation Complete!");
 
         ModItems.init();
+
+        ModBlocks.init();
     }
 
     @Mod.EventHandler
@@ -36,6 +39,7 @@ public class FunctionCraft
     {
         LogHelper.info("Initialisation Complete!");
     }
+
 
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)

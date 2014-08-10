@@ -1,5 +1,7 @@
 package com.notsewxela.functioncraft.item;
 
+import com.notsewxela.functioncraft.creativetab.CreativeTabFC;
+
 public class ItemPlatinumIngot extends ItemFunctionCraft
 {
     public ItemPlatinumIngot()
@@ -7,5 +9,6 @@ public class ItemPlatinumIngot extends ItemFunctionCraft
         super();
         this.setUnlocalizedName("ingotPlatinum");
         this.setMaxStackSize(64);
+        this.setCreativeTab(CreativeTabFC.FC_TAB);
     }
 }

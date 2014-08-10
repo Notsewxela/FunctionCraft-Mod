@@ -1,5 +1,7 @@
 package com.notsewxela.functioncraft.item;
 
+import com.notsewxela.functioncraft.creativetab.CreativeTabFC;
+
 public class ItemLeadIngot extends ItemFunctionCraft
 {
     public ItemLeadIngot()
@@ -7,5 +9,6 @@ public class ItemLeadIngot extends ItemFunctionCraft
         super();
         this.setUnlocalizedName("ingotLead");
         this.setMaxStackSize(64);
+        this.setCreativeTab(CreativeTabFC.FC_TAB);
     }
 }

@@ -13,6 +13,8 @@ public class BlockZincBlock extends BlockFunctionCraft
         this.setResistance(10F);
         this.setBlockTextureName("blockZinc");
         this.setCreativeTab(CreativeTabFC.FC_TAB);
+        this.setHarvestLevel("pickaxe",1);
+        this.setStepSound(soundTypeMetal);
     }
 
 }

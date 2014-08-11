@@ -3,6 +3,7 @@ package com.notsewxela.functioncraft;
 import com.notsewxela.functioncraft.handler.ConfigurationHandler;
 import com.notsewxela.functioncraft.init.ModBlocks;
 import com.notsewxela.functioncraft.init.ModItems;
+import com.notsewxela.functioncraft.init.ModRecipes;
 import com.notsewxela.functioncraft.proxy.IProxy;
 import com.notsewxela.functioncraft.reference.Reference;
 import com.notsewxela.functioncraft.utility.LogHelper;
@@ -12,6 +13,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.oredict.OreDictionary;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class FunctionCraft
@@ -37,6 +39,7 @@ public class FunctionCraft
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
+        ModRecipes.init();
         LogHelper.info("Initialisation Complete!");
     }
 
@@ -45,6 +48,11 @@ public class FunctionCraft
     public void postInit(FMLPostInitializationEvent event)
     {
         LogHelper.info("Post Initialisation Complete!");
+
+        for (String oreName : OreDictionary.getOreNames())
+        {
+            LogHelper.info(oreName);
+        }
     }
 
 }

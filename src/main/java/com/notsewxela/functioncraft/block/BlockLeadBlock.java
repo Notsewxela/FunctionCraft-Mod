@@ -13,5 +13,7 @@ public class BlockLeadBlock  extends BlockFunctionCraft
         this.setResistance(10F);
         this.setBlockTextureName("blockLead");
         this.setCreativeTab(CreativeTabFC.FC_TAB);
+        this.setHarvestLevel("pickaxe",1);
+        this.setStepSound(soundTypeMetal);
     }
 }

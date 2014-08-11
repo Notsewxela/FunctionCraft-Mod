@@ -14,5 +14,7 @@ public class BlockPlatinumBlock extends BlockFunctionCraft
         this.setResistance(10F);
         this.setBlockTextureName("blockPlatinum");
         this.setCreativeTab(CreativeTabFC.FC_TAB);
+        this.setHarvestLevel("pickaxe",1);
+        this.setStepSound(soundTypeMetal);
     }
 }

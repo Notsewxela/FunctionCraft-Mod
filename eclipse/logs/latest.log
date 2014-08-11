@@ -1,27 +1,27 @@
-[18:42:04] [main/INFO]: Setting user: ForgeDevName
-[18:42:06] [Client thread/INFO]: LWJGL Version: 2.9.1
-[18:42:14] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Function Craft
-[18:42:15] [Sound Library Loader/INFO]: Sound engine started
-[18:42:19] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[18:42:20] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[18:42:20] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Function Craft
-[18:42:20] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[18:42:20] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[18:42:21] [Sound Library Loader/INFO]: Sound engine started
-[18:42:49] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[18:42:49] [Server thread/INFO]: Generating keypair
-[18:42:50] [Server thread/INFO]: Preparing start region for level 0
-[18:42:51] [Server thread/INFO]: Preparing spawn area: 72%
-[18:42:52] [Server thread/INFO]: ForgeDevName[local:E:153db9b3] logged in with entity id 370 at (233.54001192650318, 72.66509157050328, 245.51905908912025)
-[18:42:52] [Server thread/INFO]: ForgeDevName joined the game
-[18:42:57] [Server thread/INFO]: Saving and pausing game...
-[18:42:57] [Server thread/INFO]: Saving chunks for level 'Da Test'/Overworld
-[18:42:57] [Server thread/INFO]: Saving chunks for level 'Da Test'/Nether
-[18:42:57] [Server thread/INFO]: Saving chunks for level 'Da Test'/The End
-[18:42:58] [Server thread/INFO]: Stopping server
-[18:42:58] [Server thread/INFO]: Saving players
-[18:42:58] [Server thread/INFO]: Saving worlds
-[18:42:58] [Server thread/INFO]: Saving chunks for level 'Da Test'/Overworld
-[18:42:58] [Server thread/INFO]: Saving chunks for level 'Da Test'/Nether
-[18:42:58] [Server thread/INFO]: Saving chunks for level 'Da Test'/The End
-[18:42:59] [Client thread/INFO]: Stopping!
+[11:58:56] [main/INFO]: Setting user: ForgeDevName
+[11:58:58] [Client thread/INFO]: LWJGL Version: 2.9.1
+[11:59:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Function Craft
+[11:59:06] [Sound Library Loader/INFO]: Sound engine started
+[11:59:10] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[11:59:10] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[11:59:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Function Craft
+[11:59:10] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[11:59:11] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[11:59:12] [Sound Library Loader/INFO]: Sound engine started
+[11:59:28] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[11:59:28] [Server thread/INFO]: Generating keypair
+[11:59:29] [Server thread/INFO]: Preparing start region for level 0
+[11:59:30] [Server thread/INFO]: Preparing spawn area: 77%
+[11:59:31] [Server thread/INFO]: ForgeDevName[local:E:2b6bf37a] logged in with entity id 366 at (233.69112190357976, 71.0, 246.5603668152126)
+[11:59:31] [Server thread/INFO]: ForgeDevName joined the game
+[11:59:49] [Server thread/INFO]: Saving and pausing game...
+[11:59:49] [Server thread/INFO]: Saving chunks for level 'Da Test'/Overworld
+[11:59:49] [Server thread/INFO]: Saving chunks for level 'Da Test'/Nether
+[11:59:49] [Server thread/INFO]: Saving chunks for level 'Da Test'/The End
+[11:59:50] [Server thread/INFO]: Stopping server
+[11:59:50] [Server thread/INFO]: Saving players
+[11:59:50] [Server thread/INFO]: Saving worlds
+[11:59:50] [Server thread/INFO]: Saving chunks for level 'Da Test'/Overworld
+[11:59:50] [Server thread/INFO]: Saving chunks for level 'Da Test'/Nether
+[11:59:50] [Server thread/INFO]: Saving chunks for level 'Da Test'/The End
+[11:59:51] [Client thread/INFO]: Stopping!

@@ -1,3 +1,4 @@
+#Items
 item.functioncraft:ingotCopper.name=Copper Ingot
 item.functioncraft:ingotLead.name=Lead Ingot
 item.functioncraft:ingotNickel.name=Nickel Ingot
@@ -7,6 +8,8 @@ item.functioncraft:ingotTin.name=Tin Ingot
 item.functioncraft:ingotZinc.name=Zinc Ingot
 item.functioncraft:dustSulfur.name=Sulfur Dust
 item.functioncraft:dustSphalerite.name=Sphalerite Dust
+
+#Blocks
 tile.functioncraft:blockCopper.name=Copper Block
 tile.functioncraft:blockLead.name=Lead Block
 tile.functioncraft:blockNickel.name=Nickel Block
@@ -14,7 +17,6 @@ tile.functioncraft:blockPlatinum.name=Platinum Block
 tile.functioncraft:blockSilver.name=Silver Block
 tile.functioncraft:blockTin.name=Tin Block
 tile.functioncraft:blockZinc.name=Zinc Block
-itemGroup.functioncraft=Function Craft
 tile.functioncraft:oreCopper.name=Copper Ore
 tile.functioncraft:oreLead.name=Lead Ore
 tile.functioncraft:oreNickel.name=Nickel Ore
@@ -22,3 +24,10 @@ tile.functioncraft:orePlatinum.name=Platinum Ore
 tile.functioncraft:oreSilver.name=Silver Ore
 tile.functioncraft:oreSphalerite.name=Sphalerite Ore
 tile.functioncraft:oreTin.name=Tin Ore
+
+#Creative Tabs
+itemGroup.functioncraft=Function Craft
+
+#Key Bindings
+keys.functioncraft.catergory=FunctionCraft
+keys.functioncraft.changemode=Change Tool Mode

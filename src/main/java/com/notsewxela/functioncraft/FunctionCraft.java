@@ -1,5 +1,6 @@
 package com.notsewxela.functioncraft;
 
+import com.notsewxela.functioncraft.client.handler.KeyInputEventHandler;
 import com.notsewxela.functioncraft.handler.ConfigurationHandler;
 import com.notsewxela.functioncraft.init.ModBlocks;
 import com.notsewxela.functioncraft.init.ModItems;
@@ -29,16 +30,19 @@ public class FunctionCraft
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
-        LogHelper.info("Pre Initialisation Complete!");
+
+        proxy.registerKeyBindings();
 
         ModItems.init();
 
         ModBlocks.init();
+        LogHelper.info("Pre Initialisation Complete!");
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
+        FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
         ModRecipes.init();
         LogHelper.info("Initialisation Complete!");
     }

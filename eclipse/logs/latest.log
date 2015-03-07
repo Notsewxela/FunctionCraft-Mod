@@ -1,29 +1,27 @@
-[18:00:32] [main/INFO]: Setting user: ForgeDevName
-[18:00:39] [Client thread/INFO]: LWJGL Version: 2.9.1
-[18:00:55] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Function Craft
-[18:00:57] [Sound Library Loader/INFO]: Sound engine started
-[18:01:09] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[18:01:09] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[18:01:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Function Craft
-[18:01:10] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[18:01:10] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[18:01:12] [Sound Library Loader/INFO]: Sound engine started
-[18:01:34] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[18:01:34] [Server thread/INFO]: Generating keypair
-[18:01:36] [Server thread/INFO]: Preparing start region for level 0
-[18:01:37] [Server thread/INFO]: Preparing spawn area: 3%
-[18:01:38] [Server thread/INFO]: Preparing spawn area: 58%
-[18:01:41] [Server thread/INFO]: ForgeDevName[local:E:6972a838] logged in with entity id 376 at (229.3873708264788, 73.11374240065788, 238.7313178377846)
-[18:01:41] [Server thread/INFO]: ForgeDevName joined the game
-[18:01:42] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2990ms behind, skipping 59 tick(s)
-[18:01:46] [Server thread/INFO]: Saving and pausing game...
-[18:01:46] [Server thread/INFO]: Saving chunks for level 'Da Test'/Overworld
-[18:01:46] [Server thread/INFO]: Saving chunks for level 'Da Test'/Nether
-[18:01:46] [Server thread/INFO]: Saving chunks for level 'Da Test'/The End
-[18:01:47] [Server thread/INFO]: Stopping server
-[18:01:47] [Server thread/INFO]: Saving players
-[18:01:47] [Server thread/INFO]: Saving worlds
-[18:01:47] [Server thread/INFO]: Saving chunks for level 'Da Test'/Overworld
-[18:01:47] [Server thread/INFO]: Saving chunks for level 'Da Test'/Nether
-[18:01:47] [Server thread/INFO]: Saving chunks for level 'Da Test'/The End
-[18:01:49] [Client thread/INFO]: Stopping!
+[21:25:39] [main/INFO]: Setting user: ForgeDevName
+[21:25:42] [Client thread/INFO]: LWJGL Version: 2.9.1
+[21:26:08] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Function Craft
+[21:26:11] [Sound Library Loader/INFO]: Sound engine started
+[21:26:27] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[21:26:27] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[21:26:27] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Function Craft
+[21:26:28] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[21:26:28] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[21:26:29] [Sound Library Loader/INFO]: Sound engine started
+[21:26:35] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[21:26:35] [Server thread/INFO]: Generating keypair
+[21:26:35] [Server thread/INFO]: Preparing start region for level 0
+[21:26:36] [Server thread/INFO]: Preparing spawn area: 3%
+[21:26:38] [Server thread/INFO]: ForgeDevName[local:E:2d8f88bd] logged in with entity id 361 at (234.50465091162943, 72.0, 246.00189457613627)
+[21:26:38] [Server thread/INFO]: ForgeDevName joined the game
+[21:27:36] [Server thread/INFO]: Saving and pausing game...
+[21:27:36] [Server thread/INFO]: Saving chunks for level 'Da Test'/Overworld
+[21:27:36] [Server thread/INFO]: Saving chunks for level 'Da Test'/Nether
+[21:27:36] [Server thread/INFO]: Saving chunks for level 'Da Test'/The End
+[21:27:46] [Server thread/INFO]: Stopping server
+[21:27:46] [Server thread/INFO]: Saving players
+[21:27:46] [Server thread/INFO]: Saving worlds
+[21:27:46] [Server thread/INFO]: Saving chunks for level 'Da Test'/Overworld
+[21:27:47] [Server thread/INFO]: Saving chunks for level 'Da Test'/Nether
+[21:27:47] [Server thread/INFO]: Saving chunks for level 'Da Test'/The End
+[21:27:48] [Client thread/INFO]: Stopping!
